@@ -1,2 +1,8 @@
-Django>=3.0,<4.0
+cryptography~=3.4.7
+django>=3.0,<4.0
+djangorestframework~=3.12.4
+django-cors-headers~=3.7.0
+drf-jwt~=1.19.1
 psycopg2-binary>=2.8
+pyjwt~=2.1.0
+requests~=2.25.1
