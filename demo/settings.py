@@ -74,8 +74,6 @@ AUTH0 = {
     'MANAGEMENT_DOMAIN': os.environ.get('AUTH0_MANAGEMENT_DOMAIN'),
 }
 
-print(AUTH0)
-
 JWT_AUTH = {
     'JWT_PAYLOAD_GET_USERNAME_HANDLER': 'auth0.utils.jwt_get_username_from_payload_handler',
     'JWT_DECODE_HANDLER': 'auth0.utils.jwt_decode_token',
